@@ -1,4 +1,8 @@
-{% extends "common/layout.html" %}
-{% block content %}
-Home Page ~ ~ ~
+{% extends "common/layout.html" %} {% block content %}
+<h1>Home Page ~ ~ ~</h1>
+
+<button onclick="swSayHI()">Say HI</button>
+<button onclick="swUnknownCmd()">Send unknown command</button>
+<button onclick="swStop()">Stop worker</button>
+<div id="result"></div>
 {% endblock %}
