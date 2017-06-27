@@ -1,0 +1,14 @@
+{
+  "name": "sw-fe3",
+  "version": "0.1.0",
+  "author": "Frank",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "dev-scripts server",
+    "build": "dev-scripts build"
+  },
+  "devDependencies": {
+    "dev-scripts": "^1.0.2"
+  }
+}
